@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+    <h1>CrateDig</h1>
+
+    <div id="logged-out">
+      <p>Connect your Spotify account to get started.</p>
+      <button id="login-btn">Login to Spotify</button>
+      <p id="login-error" class="error hidden"></p>
+    </div>
+
+    <div id="logged-in" class="hidden">
+      <div class="field">
+        <label for="playlist-select">Target Playlist</label>
+        <select id="playlist-select" disabled>
+          <option>Loading playlists...</option>
+        </select>
+      </div>
+
+      <button id="logout-btn" class="secondary">Logout</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
