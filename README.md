@@ -27,7 +27,7 @@ I kept finding myself in the same loop, browsing Bandcamp, clicking through peop
 2. Clone this repo and load it as an unpacked extension in Chrome (`chrome://extensions` → Developer Mode → Load Unpacked)
 3. Copy your extension ID from `chrome://extensions`
 4. In the Spotify Dashboard, set the redirect URI to `https://<your-extension-id>.chromiumapp.org/`
-5. Add your Spotify Client ID to the extension's config
+5. Copy `config.example.js` to `config.js` and add your Spotify Client ID
 
 ## Features
 

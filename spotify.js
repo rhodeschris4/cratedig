@@ -1,7 +1,7 @@
 const SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize";
 const SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token";
 const SPOTIFY_API_BASE = "https://api.spotify.com/v1";
-const CLIENT_ID = "27cff0052b43468385279396b7d6ae78";
+const CLIENT_ID = CONFIG.SPOTIFY_CLIENT_ID;
 const REDIRECT_URI = chrome.identity.getRedirectURL();
 const SCOPES = [
   "playlist-read-private",

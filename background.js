@@ -1,4 +1,4 @@
-importScripts("spotify.js");
+importScripts("config.js", "spotify.js");
 
 chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   handleMessage(message).then(sendResponse).catch((err) => {
